@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-ngFor-input-decorator-exercise';
+  user: Object[] = [
+    { username: 'natcat',
+    id: 'natalie'
+  },
+    {username: 'mactac',
+    id: 'michael'}
+  ];
 }
